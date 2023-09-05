@@ -4,7 +4,7 @@
 
 # **Programming Exercises**
 
-## **Exercise 1: Sound a buzzer using Wokwi Simulator for Raspberry Pi Pico**
+## **Exercise 1: Sound a buzzer using Raspberry Pi Pico**
 Link to the exercise:
     https://wokwi.com/projects/374763784064202753
 
@@ -22,7 +22,8 @@ buzzer.freq(frequency)
 ```python
 buzzer.duty_u16(0)
 ```
-## **Exercise 2: Control Buzzer with GPIO Input
+
+## Exercise 2: Control Buzzer with GPIO Input
 
 In this exercise, participants will control the buzzer with a GPIO input using a push button.
 
@@ -36,7 +37,7 @@ else:
     bequiet()
 ```
 
-## **Exercise 3: Timer-Based Buzzer Alarm
+## Exercise 3: Timer-Based Buzzer Alarm
 
 In this exercise, participants will implement a timer-based buzzer alarm. This section is currently commented out in the code, and participants are encouraged to complete it.
 
