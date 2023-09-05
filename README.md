@@ -12,10 +12,9 @@ Link to the exercise:
 ```python
 buzzer = PWM(Pin(15))
 ```
-* Exercise 1.2: Set Duty Cycle to Match Frequency
+* Exercise 1.2: Set Frequency
 
 ```python
-buzzer.duty_u16(int(65535 / frequency))
 buzzer.freq(frequency)
 ```
 * Exercise 1.3: Turn Off Buzzer
