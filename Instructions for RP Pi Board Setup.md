@@ -74,6 +74,8 @@ Select save as, give a file name and select save to Raspberry Pi Pico board
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/save_code_on_rp.jpg)
 
+Attach any external peripherals that you are programming to the board using connecting wires or a breadboard. Ensure the GPIO pins you use to connect the peripherals matches the code's expectations!
+
 Now you are ready to hit play. Select the run button to run your code on the board as shown below: 
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/run_the_code.jpg)
