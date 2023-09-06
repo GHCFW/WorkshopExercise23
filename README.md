@@ -63,7 +63,7 @@ https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
 https://github.com/GHCFW/WorkshopExercise23/blob/main/Instructions%20for%20RP%20Pi%20Board%20Setup.md
 
 
-# Answer Keys
+# Answer Key
   * ***Wokwi Exercise*** 
   
    https://wokwi.com/projects/375087692215747585
