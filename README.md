@@ -6,7 +6,7 @@
 
 ## **Exercise 1: Sound a buzzer using Raspberry Pi Pico**
 Link to the exercise:
-    https://wokwi.com/projects/374763784064202753
+    https://wokwi.com/projects/375081423502139393
 
 * Exercise 1.1: Initialize PWM on Buzzer PIN
 ```python
