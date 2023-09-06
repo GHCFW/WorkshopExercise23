@@ -125,6 +125,10 @@ This shows that the board is connected to COM3 port. The port number may vary de
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_COM.jpg)
 
+Make sure the shell has been updated to MicroPython version you selected and shows Raspberry Pi Pico with RP2020.
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/RP_shell.jpg)
+
 You are all set to run MicroPython code on your board!!
 
 #### Step 4: Run MicroPython Code on Raspberry Pi Pico Board
