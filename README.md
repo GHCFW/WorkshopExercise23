@@ -22,6 +22,12 @@ buzzer.freq(frequency)
 ```python
 buzzer.duty_u16(0)
 ```
+Understanding the firmware code:
+MicroPython: https://github.com/micropython/micropython/blob/0bafdaf5f0f44295597cf2db8c36447675183339/ports/rp2/machine_pwm.c#L274
+Raspberry Pi Pico SDK:
+https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274
+Data Sheet:
+https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
 
 ## Exercise 2: Control Buzzer with GPIO Input
 
