@@ -99,7 +99,33 @@ As a part of the board setup, we will now install MicroPython firmware on the bo
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/BOOTSEL.jpg)
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro-USB cable to your computer. This puts your board into a USB mass storage device mode. You should see the device show up as RP1/RP2 
+Press the BOOTSEL button and hold it while you connect the other end of the micro-USB cable to your computer. This puts your board into a USB mass storage device mode. You should see the device show up as RP1-RP2 
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/RP1_RP2.jpg)
+
+Now let's open Thonny and install MicroPython to our board. Click on the three horizontal lines icon and select install MicroPython from the list.
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Install_MicroPython.jpg)
+
+Make sure to select the following options: 
+
+Target volume: RP1-RP2 (D:) (Note the drive name maybe different for you)
+MicroPython Family: RP2
+variant: Raspberry Pi Pico/Pico H
+version: 1.20.0 
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Install_MicroPython_Details.jpg)
+
+And hit install. Once it is done you should see Done! in the bottom left window
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_Install_Done.jpg)
+
+Close the window. Go back to our favorite 3 horizontal lines icon and select "MicroPython (Raspberry Pi Pico) Board CDC @ COM3"
+This shows that the board is connected to COM3 port. The port number may vary depending on your computer.
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_COM.jpg)
+
+You are all set to run MicroPython code on your board!!
 
 
 
