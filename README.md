@@ -79,6 +79,32 @@ Go through the installation wizard to install Thonny. As a part of the IDE insta
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Home.jpg)
 
+
+If you don't see Thonny's Python version in the bottom right window, click on the 3 horizontal lines icon and select Thonny's Python as the interpreter.
+You can use the shell to run standard Python code.
+
+### Step 2: Configure Thonny to run MicroPython for Raspberry Pi Pico
+Click on the three horizontal lines icon in the bottom right corner of the Thonny IDE, click on Configure Interpreter 
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Configure_Interpreter.png)
+
+Select MicroPython for Raspberry Pi Pico. Keep the remaining options the same as default.
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_MicroPython.jpg)
+
+Sometimes, you may only see this option when the board is plugged in to the computer. We'll get to connecting the board to the computer next!
+
+### Step 3: Add MicroPython Firmware to the Raspberry Pi Pico Board
+As a part of the board setup, we will now install MicroPython firmware on the board. To do that, we will configure Raspberry Pi Pico board as a USB Mass Storage Device. To do that, let's first find the BOOTSEL button on the board.
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/BOOTSEL.jpg)
+
+Press the BOOTSEL button and hold it while you connect the other end of the micro-USB cable to your computer. This puts your board into a USB mass storage device mode. You should see the device show up as RP1/RP2 
+
+
+
+References:
+
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2
 
 <br>
