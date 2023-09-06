@@ -127,7 +127,7 @@ This shows that the board is connected to COM3 port. The port number may vary de
 
 Make sure the shell has been updated to MicroPython version you selected and shows Raspberry Pi Pico with RP2020.
 
-![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/RP_shell.jpg)
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/rp2040_shell.jpg)
 
 You are all set to run MicroPython code on your board!!
 
@@ -140,7 +140,7 @@ Select save as, give a file name and select save to Raspberry Pi Pico board
 
 Now you are ready to hit play. Select the run button to run your code on the board as shown below: 
 
-![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/hit_play.jpg)
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/run_the_code.jpg)
 
 Any debug statements or errors you encounter you added will show up in the Python shell. 
 
