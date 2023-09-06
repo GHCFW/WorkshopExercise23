@@ -127,6 +127,18 @@ This shows that the board is connected to COM3 port. The port number may vary de
 
 You are all set to run MicroPython code on your board!!
 
+#### Step 4: Run MicroPython Code on Raspberry Pi Pico Board
+
+Once you have tested your code on a simulator and you are ready to deploy it on the Si, let's copy over the code to the Thonny IDE. You can also develop code directly on Thonny. 
+Select save as, give a file name and select save to Raspberry Pi Pico board
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/save_code_on_rp.jpg)
+
+Now you are ready to hit play. Select the run button to run your code on the board as shown below: 
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/hit_play.jpg)
+
+Any debug statements or errors you encounter you added will show up in the Python shell. 
 
 
 References:
