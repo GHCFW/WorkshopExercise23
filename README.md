@@ -68,11 +68,16 @@ https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
 
 For this level-up lab, we will be using MicroPython to program the Raspberry Pi Pico Firmware. We will use Thonny IDE to program and run the firmware on the board.
 
-### Step 1: Install Thonny IDE
+### Step 1: Install Thonny
+Thonny is a Python based IDE. It supports running MicroPython for Raspberry Pi Pico amongst other micro-controller boards. 
 
 Go to https://thonny.org/ and download the latest version (4.1.2) for your machine.
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Download.jpg)
+
+Go through the installation wizard to install Thonny. As a part of the IDE installation, it installs its own version of python (In September 2023 it installed Python 3.10). Once installed, launch Thonny.  It should look something like this:
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Home.jpg)
 
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2
 
