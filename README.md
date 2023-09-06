@@ -45,7 +45,7 @@ else:
 
 ## Exercise 3: Timer-Based Buzzer Alarm
 
-In this exercise, participants will implement a timer-based buzzer alarm. This section is currently commented out in the code, and participants are encouraged to complete it.
+In this exercise, participants will implement a timer-based buzzer alarm. This section is currently commented out in the code, and participants are encouraged to explore the periodic and one_shot timers.
 
 REFERENCE:
 https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
