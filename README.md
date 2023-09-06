@@ -59,6 +59,25 @@ https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
 
 <br>
 
+
+<br>
+
+# Instructions for the Raspberry Pi Pico Board Exercises
+
+## Software Installation
+
+For this level-up lab, we will be using MicroPython to program the Raspberry Pi Pico Firmware. We will use Thonny IDE to program and run the firmware on the board.
+
+### Step 1: Install Thonny IDE
+
+Go to https://thonny.org/ and download the latest version (4.1.2) for your machine.
+
+![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Download.jpg)
+
+https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2
+
+<br>
+
 # Answer Keys
   * ***Wokwi Exercise*** 
   
