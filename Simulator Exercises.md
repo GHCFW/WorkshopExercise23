@@ -1,36 +1,44 @@
-We'll be using Raspberry Pi Pico on [Wokwi](https://wokwi.com) as the tool for simulator based exercises. 
+We'll be using Raspberry Pi Pico in MicroPython on [Wokwi](https://wokwi.com) as the tool for the following simulator based exercises. This online simulator provides us a mechanism to verify our code prior to running it on the Silicon.
 
 
-## **Exercise 1: Sound a buzzer using Raspberry Pi Pico**
-Go to [Wokwi Exercise](https://wokwi.com/projects/375088126383940609)
+## **Exercise 1: Let's make some music!**
+In this exercise we will create and play a song by programming an external peripheral device "buzzer". We will utilize Raspberry Pi Pico's internal PWM module for our musical creation. We'll be using three parameters to program our music - frequency, duty cycle and duration (duration each note should play for). We'll utilize PWM's APIs for programming the frequency and the duty cycle. 
+
+The baseline code for this exercise can be accessed here: [Wokwi Exercise](https://wokwi.com/projects/375088126383940609)
 
 * Exercise 1.1: Initialize PWM on Buzzer PIN
+ Let's start by initializing the GPIO pin the buzzer is connected to as a PWM pin.
+
 ```python
 buzzer = PWM(Pin(15))
 ```
+
 * Exercise 1.2: Set Frequency
+Utilize the PWM's freq API to the set frequency of the musical note to play.
 
 ```python
 buzzer.freq(frequency)
 ```
 * Exercise 1.3: Turn Off Buzzer
+Duty cycle of 0 means no power is supplied to the buzzer. Let's use that capability to turn off the buzzer.
 
 ```python
 buzzer.duty_u16(0)
 ```
-Understanding the firmware code:
 
-[MicroPython PWM API](https://github.com/micropython/micropython/blob/0bafdaf5f0f44295597cf2db8c36447675183339/ports/rp2/machine_pwm.c#L274)
+If you now hit play in your simulation, you should be able to hear the music!
 
-[C SDK PWM API](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274)
+Understanding the firmware code:<br>
+&nbsp; [MicroPython PWM API](https://github.com/micropython/micropython/blob/0bafdaf5f0f44295597cf2db8c36447675183339/ports/rp2/machine_pwm.c#L274) <br>
+&nbsp; [C SDK PWM API](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274) <br>
+&nbsp; [Raspberry Pi Pico Data Sheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 
-[Raspberry Pi Pico Data Sheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 
 ## Exercise 2: Control Buzzer with GPIO Input
+In the previous exercise, we learned how to program the different functionality of the PWM module and the buzzer to create music. However, we didn't have the capability to turn it off or on.
+In this exercise, participants will control the buzzer with a GPIO input using a slider button.
 
-In this exercise, participants will control the buzzer with a GPIO input using a push button.
-
-* If buzzer is set, playsong. Else turn off the buzzer
+* If the button is turned on, let's play the song. Else, turn off the buzzer.
 
 ```python
 button_state = button.value()
