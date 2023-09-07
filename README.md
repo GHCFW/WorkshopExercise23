@@ -5,8 +5,7 @@
 # **Programming Exercises**
 
 ## **Exercise 1: Sound a buzzer using Raspberry Pi Pico**
-Link to the exercise:
-    https://wokwi.com/projects/375088126383940609
+Go to [Exercise](https://wokwi.com/projects/375088126383940609)
 
 * Exercise 1.1: Initialize PWM on Buzzer PIN
 ```python
@@ -24,17 +23,11 @@ buzzer.duty_u16(0)
 ```
 Understanding the firmware code:
 
-MicroPython: 
+[MicroPython PWM API](https://github.com/micropython/micropython/blob/0bafdaf5f0f44295597cf2db8c36447675183339/ports/rp2/machine_pwm.c#L274)
 
-https://github.com/micropython/micropython/blob/0bafdaf5f0f44295597cf2db8c36447675183339/ports/rp2/machine_pwm.c#L274
+[C SDK PWM API](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274)
 
-Raspberry Pi Pico SDK:
-
-https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274
-
-Data Sheet:
-
-https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+[Raspberry Pi Pico Data Sheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 
 ## Exercise 2: Control Buzzer with GPIO Input
 
@@ -55,7 +48,7 @@ else:
 In this exercise, participants will implement a timer-based buzzer alarm. This section is currently commented out in the code, and participants are encouraged to explore the periodic and one_shot timers.
 
 REFERENCE:
-https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
+[MicroPython PWM Documentation](https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm)
 
 <br>
 
@@ -64,9 +57,7 @@ https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
 
 
 # Answer Key
-  * ***Wokwi Exercise*** 
-  
-   https://wokwi.com/projects/375087692215747585
+[Wokwi Exercises Answer Key](https://wokwi.com/projects/375087692215747585)
    
     
 <br>
