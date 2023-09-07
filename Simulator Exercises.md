@@ -6,20 +6,20 @@ In this exercise we will create and play a song by programming an external perip
 
 The baseline code for this exercise can be accessed here: [Wokwi Exercise](https://wokwi.com/projects/375088126383940609)
 
-* Exercise 1.1: Initialize PWM on Buzzer PIN
+* Exercise 1.1: Initialize PWM on Buzzer PIN<br>
  Let's start by initializing the GPIO pin the buzzer is connected to as a PWM pin.
 
 ```python
 buzzer = PWM(Pin(15))
 ```
 
-* Exercise 1.2: Set Frequency
+* Exercise 1.2: Set Frequency<br>
 Utilize the PWM's freq API to the set frequency of the musical note to play.
 
 ```python
 buzzer.freq(frequency)
 ```
-* Exercise 1.3: Turn Off Buzzer
+* Exercise 1.3: Turn Off Buzzer<br>
 Duty cycle of 0 means no power is supplied to the buzzer. Let's use that capability to turn off the buzzer.
 
 ```python
