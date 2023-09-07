@@ -7,7 +7,7 @@ For this level-up lab, we will be using MicroPython to program the Raspberry Pi 
 ### Step 1: Install Thonny
 Thonny is a Python based IDE. It supports running MicroPython for Raspberry Pi Pico amongst other micro-controller boards. 
 
-Go to https://thonny.org/ and download the latest version (4.1.2) for your machine.
+Go to [Thonny](https://thonny.org/) and download the latest version (4.1.2) for your machine.
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Download.jpg)
 
@@ -74,7 +74,13 @@ Select save as, give a file name and select save to Raspberry Pi Pico board
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/save_code_on_rp.jpg)
 
-Attach any external peripherals that you are programming to the board using connecting wires or a breadboard. Ensure the GPIO pins you use to connect the peripherals matches the code's expectations!
+Attach any external peripherals that you are programming to the board using connecting wires or a breadboard. 
+
+Refer to your board's pinout diagram to ensure the GPIO pins you use to connect the peripherals match the code's expectations. 
+
+Refer to [Raspberrry Pi Pico pinout diagram](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*1ish86u*_ga*MTc0NDY1MTcyMC4xNjk0MDQ3NTcw*_ga_22FD70LWDS*MTY5NDA1MTUwNC4yLjAuMTY5NDA1MTUwNS4wLjAuMA..) for this lab.
+
+
 
 Now you are ready to hit play. Select the run button to run your code on the board as shown below: 
 
