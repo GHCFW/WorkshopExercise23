@@ -2,7 +2,8 @@ We'll be using Raspberry Pi Pico in MicroPython on [Wokwi](https://wokwi.com) as
 
 
 ## **Exercise 1: Let's make some music!**
-In this exercise we will create and play a song by programming an external peripheral device "buzzer". We will utilize Raspberry Pi Pico's internal PWM module for our musical creation. We'll be using three parameters to program our music - frequency, duty cycle and duration (duration each note should play for). We'll utilize PWM's APIs for programming the frequency and the duty cycle. 
+In this exercise we will create and play a song by programming an external peripheral device "buzzer". We will utilize Raspberry Pi Pico's internal PWM (Pulse Width Modulation) module for our musical creation.
+We'll be using three parameters to program our music - frequency, duty cycle and duration (duration each note should play for). We'll utilize APIs from the MicroPython's PWM library for programming the frequency and the duty cycle and the time library for programming the duration for each musical note.
 
 The baseline code for this exercise can be accessed here: [Wokwi Exercise](https://wokwi.com/projects/375088126383940609)
 
