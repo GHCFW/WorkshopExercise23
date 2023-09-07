@@ -60,7 +60,7 @@ https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm
 <br>
 
 # Instructions for programming the Raspberry Pi Pico Board
-https://github.com/GHCFW/WorkshopExercise23/blob/main/Instructions%20for%20RP%20Pi%20Board%20Setup.md
+[Programming the Pi Pico Board](https://github.com/GHCFW/WorkshopExercise23/blob/main/Instructions%20for%20RP%20Pi%20Board%20Setup.md)
 
 
 # Answer Key
