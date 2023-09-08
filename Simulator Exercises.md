@@ -82,3 +82,9 @@ Understanding the firmware code:<br>
 <br>
 
 
+# Exercise 1 (version 2) 
+This exercise includes a switch to control the buzzer. The attendees will program some aspects of PWM and switch controls to create some music! <br>
+
+[Wokwi Exercise 1 version 2](https://wokwi.com/projects/375270207319409665)<br>
+[Wokwi Exercise 1 version 2 Answer Key](https://wokwi.com/projects/375270103975916545)<br>
+
