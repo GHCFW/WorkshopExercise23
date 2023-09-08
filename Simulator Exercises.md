@@ -40,13 +40,7 @@ buzzer.duty_u16(0)
 
 To put together all the pieces of this code jump to playsong(mysong) which plays the tones provided in the mysong. Time to run the simulation!
 
-
-Understanding the firmware code:<br>
-&nbsp; [MicroPython PWM API](https://github.com/micropython/micropython/blob/0bafdaf5f0f44295597cf2db8c36447675183339/ports/rp2/machine_pwm.c#L274) <br>
-&nbsp; [C SDK PWM API](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274) <br>
-&nbsp; [Raspberry Pi Pico Data Sheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
-
-[Answer Key for Exercise 1](https://wokwi.com/projects/375268768525056001)
+**[Answer Key for Exercise 1](https://wokwi.com/projects/375268768525056001)**
 
 ## Exercise 2: Control Buzzer with GPIO Input
 In the previous exercise, we learned how to program the different functionality of the PWM module and the buzzer to create music. However, we didn't have the capability to turn it off or on.
@@ -75,8 +69,11 @@ REFERENCES:<br>
 [Wokwi Switch Documentation](https://docs.wokwi.com/parts/wokwi-slide-switch)
 [Wokwi Buzzer Documentation](https://docs.wokwi.com/parts/wokwi-buzzer)
 [MicroPython PWM Documentation](https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm)
+
+Understanding the firmware code:<br>
+&nbsp; [MicroPython PWM API](https://github.com/micropython/micropython/blob/0bafdaf5f0f44295597cf2db8c36447675183339/ports/rp2/machine_pwm.c#L274) <br>
+&nbsp; [C SDK PWM API](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274) <br>
+&nbsp; [Raspberry Pi Pico Data Sheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 <br>
 
-# Answer Key <br>
-[Simulator Exercises Answer Key](https://wokwi.com/projects/375268338959054849)
 
