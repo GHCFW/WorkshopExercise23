@@ -13,7 +13,7 @@ The baseline code for this exercise can be accessed here: [Wokwi Exercise 1](htt
     - Enable PWM on that pin using PWM() API
 
 ```python
-buzzer = PWM(Pin(BUZZER_PIN), Pin.OUT)
+buzzer = PWM(Pin(BUZZER_PIN, Pin.OUT))
 ```
 
 
