@@ -18,7 +18,7 @@ buzzer = PWM(Pin(BUZZER_PIN, Pin.OUT))
 
 
 * Exercise 1.2: Set Frequency<br>
-    Go to playton() function defined in the exercise.<br>
+    Go to playtone() function defined in the exercise.<br>
 
     This function takes frequency and duration as the input parameters and configures different PWM parameters (frequency, duty cycle and duration).
 
