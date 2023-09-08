@@ -35,7 +35,8 @@ As a part of the board setup, we will now install MicroPython firmware on the bo
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/BOOTSEL.jpg)
 
-Press the BOOTSEL button and hold it while you connect the other end of the micro-USB cable to your computer. This puts your board into a USB mass storage device mode. You should see the device show up as RP1-RP2 
+Press the BOOTSEL button and hold it while you connect the other end of the micro-USB cable to your computer. This puts your board into a USB mass storage device mode. You should see the device show up as RP1-RP2.
+Note: If you don not see the device show up, then disconnect the board from your computer, and make sure you first hold on the BOOTSEL button and then connect the board to the computer while continuing to hold down the button. 
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/RP1_RP2.jpg)
 
