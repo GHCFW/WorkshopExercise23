@@ -42,8 +42,8 @@ To put together all the pieces of this code jump to playsong(mysong) which plays
 
 **[Answer Key for Exercise 1](https://wokwi.com/projects/375268768525056001)**
 
-## Exercise 2: Control Buzzer with GPIO Input
-[Wokwi Exercise 2](https://wokwi.com/projects/375269853129242625)
+## Exercise 2: Control Buzzer with GPIO Input<br>
+[Wokwi Exercise 2](https://wokwi.com/projects/375269853129242625)<br>
 In the previous exercise, we learned how to program the different functionality of the PWM module and the buzzer to create music. However, we didn't have the capability to turn it off or on.
 In this exercise, participants will control the buzzer with a GPIO input using a slider switch button. If the switch is turned on, play the song, else turn off the buzzer. Else turn off the buzzer
 A GPIO pin (IN) has already been defined to take in the input from the switch: SWITCH_PIN. The switch we used has 3 prongs: one end of the switch is connected to 3V, the middle prong is connected to GPIO pin defined by SWITCH_PIN and the other end is connected to GND. We have configured Pico to pull down this pin to ground to avoid any noisy inputs. The switch is considered "ON" when we read a 1 (when the circuit is connected b/w 3V and GPIO pin) and is considered "OFF" when we read a 0 (circuit is connected between the GPIO pin and GND) from the GPIO pin.
@@ -60,6 +60,7 @@ while True:
         #print("Switch is OFF")
         bequiet()
 ```
+<br>
 **[Answer Key for Wokwi Exercise 2](https://wokwi.com/projects/375269681272850433)**
 
 ## Exercise 3: Create Music using Timers
