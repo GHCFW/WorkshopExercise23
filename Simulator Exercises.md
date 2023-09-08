@@ -5,7 +5,7 @@ We'll be using Raspberry Pi Pico in MicroPython on [Wokwi](https://wokwi.com) as
 In this exercise we will create and play a song by programming an external peripheral device "buzzer". We will utilize Raspberry Pi Pico's internal PWM (Pulse Width Modulation) module for our musical creation.
 We'll be using three parameters to program our music - frequency, duty cycle and duration (duration each note should play for). We'll utilize APIs from the MicroPython's PWM library for programming the frequency and the duty cycle and the time library for programming the duration for each musical note.
 
-The baseline code for this exercise can be accessed here: [Wokwi Exercise](https://wokwi.com/projects/375268439812151297)
+The baseline code for this exercise can be accessed here: [Wokwi Exercise 1](https://wokwi.com/projects/375268852560044033)
 
 * Exercise 1.1: Initialize PWM on Buzzer PIN<br>
     A GPIO pin has already been assigned for the buzzer "BUZZER_PIN".
@@ -46,6 +46,7 @@ Understanding the firmware code:<br>
 &nbsp; [C SDK PWM API](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/hardware_pwm/include/hardware/pwm.h#L274) <br>
 &nbsp; [Raspberry Pi Pico Data Sheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
 
+[Answer Key for Exercise 1](https://wokwi.com/projects/375268768525056001)
 
 ## Exercise 2: Control Buzzer with GPIO Input
 In the previous exercise, we learned how to program the different functionality of the PWM module and the buzzer to create music. However, we didn't have the capability to turn it off or on.
@@ -74,8 +75,8 @@ REFERENCES:<br>
 [Wokwi Switch Documentation](https://docs.wokwi.com/parts/wokwi-slide-switch)
 [Wokwi Buzzer Documentation](https://docs.wokwi.com/parts/wokwi-buzzer)
 [MicroPython PWM Documentation](https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm)
+<br>
 
-
-# Answer Key
+# Answer Key <br>
 [Simulator Exercises Answer Key](https://wokwi.com/projects/375268338959054849)
 
