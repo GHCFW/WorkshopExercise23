@@ -57,7 +57,8 @@ And hit install. Once it is done you should see Done! in the bottom left window
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_Install_Done.jpg)
 
-Close the window. Go back to our favorite 3 horizontal lines icon and select "MicroPython (Raspberry Pi Pico) Board CDC @ COM3"
+Close the window. Go back to our favorite 3 horizontal lines icon and select the "MicroPython (Raspberry Pi Pico) @ <drive that the board is mounted on>" option.
+Eg : "MicroPython (Raspberry Pi Pico) Board CDC @ COM3" (OR) "MicroPython (Raspberry Pi Pico) Board in FS Mode @ /dev/..."
 This shows that the board is connected to COM3 port. The port number may vary depending on your computer.
 
 ![alt text](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_COM.jpg)
