@@ -60,10 +60,12 @@ while True:
         bequiet()
 ```
 
-## Exercise 3: Timer-Based Buzzer Alarm
+## Exercise 3: Create Music using Timers
 
 In this exercise, participants will implement a timer-based buzzer alarm. This section is currently commented out in the code, and participants are encouraged to explore the periodic and one_shot timers.
-This exercise utilizes interrupts to generate an event for the CPU when the timer period has elapsed to play the song.
+This exercise utilizes interrupts to generate an event for the CPU when the timer period has elapsed to play the song.<br>
+
+[Wokwi Exercise using Timers](https://wokwi.com/projects/375269007294233601)
 
 REFERENCES:<br>
 [Wokwi Switch Documentation](https://docs.wokwi.com/parts/wokwi-slide-switch)
