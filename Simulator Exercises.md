@@ -70,7 +70,9 @@ while True:
 In this exercise, participants will implement a timer-based buzzer alarm. This section is currently commented out in the code, and participants are encouraged to explore the periodic and one_shot timers.
 This exercise utilizes interrupts to generate an event for the CPU when the timer period has elapsed to play the song.
 
-REFERENCES:
+REFERENCES:<br>
+[Wokwi Switch Documentation](https://docs.wokwi.com/parts/wokwi-slide-switch)
+[Wokwi Buzzer Documentation](https://docs.wokwi.com/parts/wokwi-buzzer)
 [MicroPython PWM Documentation](https://docs.micropython.org/en/latest/library/machine.PWM.html?highlight=pwm)
 
 
