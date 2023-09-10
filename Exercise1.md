@@ -12,7 +12,7 @@ Before you start, make sure you have completed the following prerequisites:
 
 #### Step 1:  We will use a free online simulator to get started with our exercises. 
 
-1. **Wokwi Simulation**: We'll start by simulating the game on the Wokwi platform. Follow this link to open the simulation: [Wokwi Simulation](https://wokwi.com/projects/375448534440336385).
+1. **Wokwi Simulation**: We'll start by simulating the game on the Wokwi platform. Follow this link to open the simulation: [Exercise 1](https://wokwi.com/projects/375503927564689409).
 
 2. **Understanding the Code**: Take a look at the provided Python code in `main.py`. We've added comments to explain the code step by step. It includes concepts like GPIO (General-Purpose Input/Output) pins and interrupts which we discussed earlier
 
@@ -99,6 +99,9 @@ Now you are ready to hit "Play." Click the "Run" button to execute your code on 
 
 Any debug statements or errors you encounter that you added to your code will show up in the Python shell.
 
-References:
+### Answer Key:
+[Answer to Exercise 1](https://wokwi.com/projects/375475932290396161)
+
+### References:
 - [Raspberry Pi Pico Workshop](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2)
 
