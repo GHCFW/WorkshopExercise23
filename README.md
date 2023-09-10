@@ -4,9 +4,11 @@
 
 This workshop is divided into a series of exercises to showcase a few important firmware concepts. We will start with the exercises on the a simulator before moving to the physical board. For this workshop we will utilize a free online simulator called [Wokwi](https://wokwi.com/) and use Raspberry Pi Pico as a vehicle to demonstrate the power of firmware. After getting the code to work on the simulator, we will configure the Raspberry Pi Pico physical board. 
 
-Part 1: [Simulator Exercises](https://github.com/GHCFW/WorkshopExercise23/blob/main/Simulator%20Exercises.md)
+Software Installation: [Prerequisities for the workshop](https://github.com/GHCFW/WorkshopExercise23/blob/main/Prerequisite.md)
 
-Part 2: [Programming the Pi Pico Board](https://github.com/GHCFW/WorkshopExercise23/blob/main/Instructions%20for%20RP%20Pi%20Board%20Setup.md)
+Exercise 1: [Exercise 1](https://github.com/GHCFW/WorkshopExercise23/blob/main/Exercise1.md)
+
+Exercise 2: [Exercise 2](https://github.com/GHCFW/WorkshopExercise23/blob/main/Exercise2.md)
 
 
 # References
