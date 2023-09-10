@@ -6,7 +6,7 @@ Welcome to "The Power of Firmware - Bringing Your Hardware to Life" workshop! In
 
 Before you start, make sure you have completed the following prerequisites:
 
-- [Install Thonny](prerequisite.md#step-1-install-thonny): Thonny is a Python IDE that we'll use to program the Raspberry Pi Pico. It's essential for this workshop.
+- [Install Thonny](https://github.com/GHCFW/WorkshopExercise23/blob/main/Prerequisite.md): Thonny is a Python IDE that we'll use to program the Raspberry Pi Pico. It's essential for this workshop.
 
 ### Getting Started with Wokwi
 
