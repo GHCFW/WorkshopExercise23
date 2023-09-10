@@ -28,6 +28,7 @@ In the `song.py` file, replace the comment that says `# Exercise 2.1: Init the b
 ```python
 # Exercise 2.1: Init the buzzer pin
 buzzer = machine.PWM(buzzer_pin)
+```
 
 ## Step 3: Adding Sound Effects
 
