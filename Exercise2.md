@@ -10,7 +10,7 @@ Before you start this exercise, make sure you have completed [Exercise 1](https:
 
 ### Step 1: Understanding the Code
 
-To get started, let's understand the code and make the necessary modifications. Click on the following link to open your project in the Wokwi simulator: [Wokwi Simulator - Exercise 2](https://wokwi.com/projects/375439773149315073).
+To get started, let's understand the code and make the necessary modifications. Click on the following link to open your project in the Wokwi simulator: [Wokwi Simulator - Exercise 2](https://wokwi.com/projects/375515078951632897).
 
 Once the simulator is open, you can explore the code files:
 
@@ -36,7 +36,9 @@ Now, let's add sound effects to announce the winner. In the `main.py` file, you 
 
 Here's what you need to do:
 
+Exercise 2.2:
 - When **player 1** wins, add a function call to `playsong()` with whichever song you choose to play for player 1 victory from the options provided in song.py.
+Exercise 2.3:
 - When **player 2** wins, add a function call to `playsong()` for player 2 vicotry song.
 
 ## Step 4: Testing on Wokwi
@@ -56,6 +58,9 @@ Connect the buzzer to the Raspberry Pi Pico as shown in the following diagram:
 ![Wiring Diagram](diagram.json)
 
 This diagram illustrates the connections between the Raspberry Pi Pico, buttons, LED, and buzzer.
+
+## Answer Key
+https://wokwi.com/projects/375514830125587457
 
 ## Additional Resources
 
