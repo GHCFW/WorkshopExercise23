@@ -12,7 +12,7 @@ Before you start, make sure you have completed the following prerequisites:
 
 #### Step 1:  We will use a free online simulator to get started with our exercises. 
 
-1. **Wokwi Simulation**: We'll start by simulating the game on the Wokwi platform. Follow this link to open the simulation: [Wokwi Simulation](https://wokwi.com/projects/375362750523243521).
+1. **Wokwi Simulation**: We'll start by simulating the game on the Wokwi platform. Follow this link to open the simulation: [Wokwi Simulation](https://wokwi.com/projects/375453135193538561).
 
 2. **Understanding the Code**: Take a look at the provided Python code in `main.py`. We've added comments to explain the code step by step. It includes concepts like GPIO (General-Purpose Input/Output) pins and interrupts which we discussed earlier
 
