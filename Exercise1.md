@@ -8,7 +8,7 @@ Before you start, make sure you have completed the following prerequisites:
 
 - [Install Thonny](https://github.com/GHCFW/WorkshopExercise23/blob/main/Prerequisite.md): Thonny is a Python IDE that we'll use to program the Raspberry Pi Pico. It's essential for this workshop.
 
-### Getting Started with Wokwi
+### Step 1: Getting Started with Wokwi
 
 1. **Wokwi Simulation**: We'll start by simulating the game on the Wokwi platform. Follow this link to open the simulation: [Wokwi Simulation](https://wokwi.com/projects/375362750523243521).
 
