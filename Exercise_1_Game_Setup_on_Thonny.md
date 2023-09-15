@@ -17,20 +17,30 @@
 
       Pico's 3V is GPIO Pin 36, which is connected to the bread-board via 5 [fghij] to the bread-board's +rails
 
-  You can refer to the [Raspberry Pi Pico pinout diagram](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*1ish86u*_ga*MTc0NDY1MTcyMC4xNjk0MDQ3NTcw*_ga_22FD70LWDS*MTY5NDA1MTUwNC4yLjAuMTY5NDA1MTUwNS4wLjAuMA..) for this lab.
+      Reference <br>
+      [Raspberry Pi Pico pinout diagram](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*1ish86u*_ga*MTc0NDY1MTcyMC4xNjk0MDQ3NTcw*_ga_22FD70LWDS*MTY5NDA1MTUwNC4yLjAuMTY5NDA1MTUwNS4wLjAuMA..)
 
 
-  3. Connect the board to your computer <br>
-     Use the USB/USB converter to connect the board to your computer.
-     The host computer supplies power to the board, but also provides a mechanism to run the firmware.
+  2. Connect the board to your computer <br>
+     Use the USB cable to connect the board to your computer. <br>
+     The host computer supplies power to the board, but it also provides a mechanism to run the firmware.
 
-  4. Open Thonny & Connect the board to run with Thonny <br>
-     3a. Close the window. Go back to the three horizontal lines icon and select "MicroPython (Raspberry Pi Pico) @ [drive that the board is mounted on]."
+  3. Open Thonny & connect the board to run with Thonny <br>
+  
+     3a. By default Thonny will open a Python shell, such as like the one shown in the picture below.
+     
+        ![Thonny Python Shell](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Python_Shell.png)
+
+     
+     3b. We want to switch the shell to run with MicroPython instead of Python. Locate the three horizontal lines icon in the bottom right window of Thonny. Click and select "MicroPython (Raspberry Pi Pico) @ [drive that the board is mounted on]."
 
        - Example: "MicroPython (Raspberry Pi Pico) Board CDC @ COM3" (OR) "MicroPython (Raspberry Pi Pico) Board in FS Mode @ /dev/..."
        - This shows that the board is connected to a specific port (e.g., COM3), but the port number may vary depending on your computer.
 
-        ![MicroPython COM Port](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_COM.jpg)
+        ![Pico COM Port on Windows](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_COM.jpg)
+
+        ![TODO: Pico COM Port on Mac](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_COM.jpg)
+
 
   3b. Verify that the shell has been updated to the MicroPython version you selected, and it shows "Raspberry Pi Pico with RP2020."
 
@@ -38,4 +48,10 @@
 
   You are all set to run MicroPython code on your board!
   
-  4. Play the game!! <br>
+  4. Open the firmware code uploaded on Thonny <br>
+     Before we can play the game, open the firmware files that are already uploaded on Thonny so that we can run that firmware. To do this, go to File -> Open ... ->
+
+     If you didn't see Raspberry Pi Pico as an option to open the file from:
+     - Your board is not recognized by Thonny. Go back to steps 2 & 3 and ensure that those were successful 
+
+  6. Play the game!! <br>
