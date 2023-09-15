@@ -9,7 +9,7 @@
    1. Verify bread-board setup <br>
       Check the picture below to verify your bread-board setup matches the expectation. <br>
 
-      ![Exercise_1_Breadboard_Setup](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Exercise_1_Board_Setup.jepg)
+      ![Exercise 1: Board Setup](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Exercise_1_Board_Setup.JPEG)
 
       The button we are using has 2 prongs, one end of the switch is connected to Pico's GPIO pin and the other end is connected to 3V rail.
       - Player 1 button connections: GPIO Pin "TODO", which is equivalent to bread-board pin "TODO".
