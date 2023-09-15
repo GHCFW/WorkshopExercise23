@@ -25,14 +25,14 @@ Before getting started, please install the required software needed for this lab
    
 ### **2. Update the reaction game to play victory music on the simulator <br>**
    We will start with this exercise on the simulator (Wokwi) before trying the code on the board. <br>
-   ** Goal ** <br>
+   **Goal** <br>
    You have been provided with a song library with song options: 'player1_victory_song', 'player2_victory_song'. <br>
    Update the existing code to play the corresponding victory tone when a player wins the round. <br>
 
    Visit [Exercise 2: Play victory song on Wokwi](https://github.com/GHCFW/WorkshopExercise23/blob/main/Exercise_2_Play_Victory_Song_on_Wokwi.md) for detailed instructions
 
 ### **3. Play the reaction game with the buzzer on the Pico board <br>**
-   ** Goal ** <br>
+   **Goal** <br>
    The goal of this exercise is to play the same victory music on the board!
 
    a. Connect the buzzer to the board (check the link below for instructions) <br>
