@@ -10,16 +10,20 @@ Before getting started, please install the required software needed for this lab
 ## Workshop Contents
 ### **1. Play the reaction game on Raspberry Pi Pico board <br>**
    **Goal of the game**<br>
-    The game consists of three rounds where an LED turns on and off as the stimulus. The objective for each player is to press their respective button as quickly as possible when the LED turns on->off.
-    The player who reacts fastest in each round earns a point, and the player with the most points at the end of three rounds wins the game.
+   This is a game of quick reflexes! <br>
+    &nbsp; &nbsp; * It is a 2-player game, create groups of 2 on your table. <br>
+    &nbsp; &nbsp; * The game consists of three rounds where the on-board LED turns on and off as the stimulus. <br>
+    &nbsp; &nbsp; * The first player to press their button as soon as the LED goes off wins a point. <br>
+    &nbsp; &nbsp; * The player with the most points at the end of three rounds wins the game. <br>
+    &nbsp; &nbsp; * The LED has been configured to stay on for an arbitary amount of time. Button presses while the LED is still on will be ignored. <br>
 
-   We have setup the Pico board along with 2 switches for you. The firmware has been flashed on the board. All you need to do for this step is:
-   
-   a. Connect the board to your computer <br>
-   b. Open Thonny IDE <br>
-   c. Connect the board to run with Thonny (check the link below for step by step instructions) <br>
-   d. Run the code <br>
-   e. Play the game!! <br>
+   We have setup the Pico board along with 2 switches for you. The firmware has been flashed on the board. All you need to do for this step is: <br>
+     &nbsp; &nbsp; a. Connect the board to your computer <br>
+     &nbsp; &nbsp; b. Open Thonny IDE <br>
+     &nbsp; &nbsp; c. Connect the board to run with Thonny (check the link below for step by step instructions) <br>
+     &nbsp; &nbsp; d. Open and run the code <br>
+     &nbsp; &nbsp; e. Play the game!! <br>
+     &nbsp; &nbsp; f. Ensure everyone on the table gets a chance to play the game once!! <br>
 
    Visit [Exercise 1: Game Setup on Thonny](https://github.com/GHCFW/WorkshopExercise23/blob/main/Exercise_1_Game_Setup_on_Thonny.md) for detailed instructions
    
