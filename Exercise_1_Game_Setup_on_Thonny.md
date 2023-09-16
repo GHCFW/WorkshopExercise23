@@ -21,7 +21,7 @@
       - Player 1 (blue button) button connections: GPIO Pin 15, which is connected to the bread-board via #20 [abcde]
       - Player 2 (white button) button connections: GPIO Pin 16, which is connected to the bread-board via #20 [fghij]
 
-      Pico's 3V is GPIO Pin 36, which is connected to the bread-board via 5 [fghij] to the bread-board's +rails
+      Pico's 3V is GPIO Pin 36, which is connected to the bread-board via 5 [fghij] to the bread-board's +rails. It does not matter which + rail pin on the bread-board you connect to as long as the + rails on both sides of the bread-board are connected.
 
       Reference <br>
       [Raspberry Pi Pico pinout diagram](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*1ish86u*_ga*MTc0NDY1MTcyMC4xNjk0MDQ3NTcw*_ga_22FD70LWDS*MTY5NDA1MTUwNC4yLjAuMTY5NDA1MTUwNS4wLjAuMA..)
