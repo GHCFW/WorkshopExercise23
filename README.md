@@ -46,4 +46,5 @@ Before getting started, please install the required software needed for this lab
 
 ## Resources
 
+* You bought a new Pico board. What next? See setup instructions for a new board here <>, project ideas here <>
 
