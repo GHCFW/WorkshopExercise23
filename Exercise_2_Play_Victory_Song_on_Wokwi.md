@@ -73,3 +73,7 @@ Here's what you need to do:
 Before porting your code to the Raspberry Pi Pico, it's a good practice to test it quickly on the Wokwi simulator. This allows you to verify that your code is functioning as expected without the need for physical hardware.
 
 To do this, make sure you have made the changes mentioned above in Steps 1 and 2 and test your game in the simulator to ensure that the sound effects work correctly.
+
+## Answer Key
+
+[Exercise 2 Wokwi Answer Key](https://wokwi.com/projects/375984023630935041)
