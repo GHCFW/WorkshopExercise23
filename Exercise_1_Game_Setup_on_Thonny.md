@@ -34,7 +34,7 @@
  ###  3. Open Thonny & connect the board to run with Thonny <br> <br>
   3a. By default Thonny will open a Python shell, such as the one shown in the picture below.
      
-  ![Thonny Python Shell](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Python_Shell.png)
+  ![Thonny Home](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Home.jpg)
  
   3b. We want to switch the shell to run with MicroPython instead of Python. Locate the three horizontal lines icon in the bottom right window of Thonny. Click and select "MicroPython (Raspberry Pi Pico) @ [drive that the board is mounted on]."
 
