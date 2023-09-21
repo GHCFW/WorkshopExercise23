@@ -2,7 +2,7 @@
 
 To get started, let's understand the existing code for the reaction game and make the necessary modification to add some music! We will utilize an online simulator, Wokwi to develop and verify the code.
 
-Click on the following link to open your project in the Wokwi simulator: [Wokwi Simulator - Exercise 2](https://wokwi.com/projects/375984162724547585).
+Click on the following link to open your project in the Wokwi simulator: [Wokwi Simulator - Exercise 2](https://wokwi.com/projects/376446541077468161).
 
 Once the simulator is open, you can explore the code files:
 
@@ -23,11 +23,12 @@ In the `song.py` file, replace the comment that says `# Exercise 2.1: Instatiate
 ```python
 BUZZER_GPIO_PIN_NUMBER = 14
 ###################################################################
-# Exercise 2.1: Instatiate a buzzer object, which is a PWM-type GPIO pin
+# Exercise 2.1: Instatiate a buzzer_pin object, which is a GPIO pin
 # We want this pin to be an output pin
-# PWM(Pin(<pin_number>, <pin_direction>))
+# buzzer_pin = Pin(<pin_number>, <pin_direction>)
 ###################################################################
-buzzer = PWM(Pin(BUZZER_GPIO_PIN_NUMBER, Pin.OUT))
+buzzer_pin = Pin(BUZZER_GPIO_PIN_NUMBER, Pin.OUT)
+buzzer = PWM(buzzer_pin)
 ```
 
 We are connecting the buzzer to Pico's GPIO Pin #14 and defining it as a PWM pin.
