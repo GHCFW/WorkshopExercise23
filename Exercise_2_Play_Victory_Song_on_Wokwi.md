@@ -77,4 +77,4 @@ To do this, make sure you have made the changes mentioned above in Steps 1 and 2
 
 ## Answer Key
 
-[Exercise 2 Wokwi Answer Key](https://wokwi.com/projects/375984023630935041)
+[Exercise 2 Wokwi Answer Key](https://wokwi.com/projects/376446850109623297)
