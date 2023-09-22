@@ -9,7 +9,7 @@ Thonny is a Python-based Integrated Development Environment (IDE) that provides 
 
 ### Step 1: Install Thonny
 
-1. **Download Thonny:** Start by downloading the latest version of Thonny for your operating system from the official Thonny website: [Thonny Download](https://thonny.org/).
+1. **Download Thonny:** Start by downloading the latest version of Thonny for your operating system from the official Thonny website: [Thonny Download](https://thonny.org/). Install the 64-bit version.
 
    ![Thonny Download](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Thonny_Download.jpg)
 
