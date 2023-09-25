@@ -28,7 +28,7 @@ To get started, you'll need the following:
 
 1. Locate the BOOTSEL button on your Raspberry Pi Pico board.
 
-   ![BOOTSEL Button](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/BOOTSEL.jpg)
+![BOOTSEL Button](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/BOOTSEL.jpg)
 
 2. Press and hold the BOOTSEL button while connecting the other end of the micro-USB cable to your computer. This action puts your board into USB mass storage device mode, and it should appear as "RP1-RP2."
 
