@@ -13,7 +13,7 @@
    We have setup the Pico board along with 2 switches for you. The micropython firmware as well as the game firmware has been flashed on the board.
    
    ### 1. Verify bread-board setup <br> <br>
-  Check the picture below to verify your bread-board setup matches the below expectations. These connections already done for you. If you have moved the components on your board, look at the picture below to connect them back. <br>
+  Check the picture below to verify your bread-board setup matches the below expectations. These connections are already done for you. If you have moved the components on your board, look at the picture below to connect them back. <br>
 
   ![Exercise 1: Board Setup](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Exercise_1_Board_Setup.jpeg)
 
