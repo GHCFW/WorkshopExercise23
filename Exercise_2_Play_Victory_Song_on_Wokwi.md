@@ -1,14 +1,15 @@
-## Exercise 2: Run the game on a simulator and play the victory song
+## Activity 2: Run the game on a simulator and play the victory song
 
-To get started, let's understand the existing code for the reaction game and make the necessary modification to add some music! We will utilize an online simulator, Wokwi to develop and verify the code.
+To get started, let's understand the existing code for the reaction game and make the necessary modifications to add some music! We will utilize an online simulator, Wokwi to develop and verify the code.
 
-Click on the following link to open your project in the Wokwi simulator: [Wokwi Simulator - Exercise 2](https://wokwi.com/projects/376446541077468161).
+Click on the following link to open your project in the Wokwi simulator: [Wokwi Simulator - Exercise 2]( https://wokwi.com/projects/377160264606827521).
 
 Once the simulator is open, you can explore the code files:
 
 - `main.py`: The main script for the game, which includes code for button handling and determining the winner. This is what we used in Exercise 1. 
+- `playsong.py`: Contains functions for playing songs and sound effects.
+- 'songs.py`: A list of different songs options to choose from for the victory music.
 - `tones.py`: A dictionary of musical note frequencies that we'll use for playing the buzzer.
-- `song.py`: Contains functions for playing songs and sound effects.
 
 In the schematics, we have already connected the buttons as well as the buzzer to the Pico.
 
@@ -18,15 +19,15 @@ Raspberry Pi Pico has a PWM module that we can utilize to play different sounds 
 We first need to initialize the PWM object for the buzzer.
 
 **EXERCISE 2.1:**
-In the `song.py` file, replace the comment that says `# Exercise 2.1: Instatiate a buzzer object, which is a PWM-type GPIO pin` with code to initialize the GPIO pin that the buzzer is connected to in GPIO out mode. In other words, what should `buzzer` be set to? 
+In the `playsong.py` file, replace the comment that says `# Exercise 2.1: Instantiate a buzzer object, which is a PWM-type GPIO pin` with code to initialize the GPIO pin that the buzzer is connected to in GPIO out mode. In other words, what should `buzzer` be set to? 
 
 ```python
-BUZZER_GPIO_PIN_NUMBER = 14
 ###################################################################
 # Exercise 2.1: Instatiate a buzzer_pin object, which is a GPIO pin
 # We want this pin to be an output pin
 # buzzer_pin = Pin(<pin_number>, <pin_direction>)
 ###################################################################
+BUZZER_GPIO_PIN_NUMBER = 14
 buzzer_pin = Pin(BUZZER_GPIO_PIN_NUMBER, Pin.OUT)
 buzzer = PWM(buzzer_pin)
 ```
@@ -48,7 +49,7 @@ Here's what you need to do:
             ###################################################################
             # Exercise 2.2 Call the playsong API for player1_victory_song
             ###################################################################
-            playsong(player1_victory_song)
+            playsong(victory_song_option_1)
             player1_wins += 1
             fastest_button = None
             break
@@ -62,7 +63,7 @@ Here's what you need to do:
             ###################################################################
             # Exercise 2.2 Call the playsong API for player2_victory_song
             ###################################################################
-            playsong(player2_victory_song)
+            playsong(victory_song_option_2)
             player2_wins += 1
             fastest_button = None
             break
@@ -77,4 +78,4 @@ To do this, make sure you have made the changes mentioned above in Steps 1 and 2
 
 ## Answer Key
 
-[Exercise 2 Wokwi Answer Key](https://wokwi.com/projects/376446850109623297)
+[Exercise 2 Wokwi Answer Key](https://wokwi.com/projects/377155596907249665)
