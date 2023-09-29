@@ -1,4 +1,4 @@
-## Exercise 1: Play the reaction game on the Pico board
+## Activity 1: Play the reaction game on the Pico board
 
    **Goal of the game**<br>
     This is a game of quick reflexes! <br>
