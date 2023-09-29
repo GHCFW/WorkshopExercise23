@@ -17,11 +17,12 @@
 
   ![Exercise 1: Board Setup](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Exercise_1_Board_Setup.jpeg)
 
-  The button we are using has 2 pins, one end of which is connected to Pico's GPIO pin and the other end is connected to a 3V rail. 
-      - Player 1 (blue button) button connections: GPIO Pin 15, which is connected to the bread-board via #20 [abcde]
-      - Player 2 (white button) button connections: GPIO Pin 16, which is connected to the bread-board via #20 [fghij]
+  The button we are using has 2 pins, one end of which is connected to Pico's GPIO pin and the other end is connected to a 3V rail. <br>
+      - Player 1 (blue button) button connections: GPIO Pin 15, which is connected to the bread-board via #20 <br>
+      - Player 2 (white button) button connections: GPIO Pin 16, which is connected to the bread-board via #40 <br>
 
-  Pico's 3V is GPIO Pin 36, which is connected to the bread-board via 5 [fghij] to the bread-board's +rails. It does not matter which + rail pin on the bread-board you connect to as long as the + rails on both sides of the bread-board are connected.
+  Pico's 3V is GPIO Pin 36, which is connected to the bread-board via #5 to the bread-board's +rails.<br>
+  It does not matter which + rail pin on the bread-board you connect to as long as the + rails on both sides of the bread-board are connected.
 
   Reference <br>
       [Raspberry Pi Pico pinout diagram](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf?_gl=1*1ish86u*_ga*MTc0NDY1MTcyMC4xNjk0MDQ3NTcw*_ga_22FD70LWDS*MTY5NDA1MTUwNC4yLjAuMTY5NDA1MTUwNS4wLjAuMA..)
@@ -43,15 +44,13 @@
 
     ![Pico COM Port on Windows](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/MicroPython_COM.jpg)
 
-    ![TODO: Pico COM Port on Mac](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/.jpg)
-
   3c. Verify that the shell has been updated to the MicroPython version you selected, and it shows "Raspberry Pi Pico with RP2020." <br> <br>
       ![RP2040 Shell](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/rp2040_shell.jpg) <br>
   
   You are all set to run MicroPython code on your board!
   
- ### 4. Open the firmware code uploaded on Thonny <br>
-  Before we can play the game, open the firmware files that are already uploaded on Thonny so that we can run that firmware. To do this, go to File -> Open ... -> Raspberry Pi Pico -> main.py
+ ### 4. Open the code uploaded on Thonny <br>
+  Before we can play the game, open the files that are already uploaded on Thonny so that we can run that firmware. To do this, go to File -> Open ... -> Raspberry Pi Pico -> main.py
 
   ![Open File](https://github.com/GHCFW/WorkshopExercise23/blob/main/images/Open_File_On_Thonny.png)
 
