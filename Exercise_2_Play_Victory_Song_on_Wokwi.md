@@ -47,7 +47,8 @@ Here's what you need to do:
         if fastest_button is left_button:
             print('Game interation #' + str(game_iteration + 1) + ', player 1 won')
             ###################################################################
-            # Exercise 2.2 Call the playsong API for player1_victory_song
+            # Exercise 2.2 Call the playsong API with your choice of song
+            # from the songs library for player1 victory song
             ###################################################################
             playsong(victory_song_option_1)
             player1_wins += 1
@@ -61,7 +62,8 @@ Here's what you need to do:
         elif fastest_button is right_button:
             print('Game interation #'+ str(game_iteration + 1) + ', player 2 won')
             ###################################################################
-            # Exercise 2.2 Call the playsong API for player2_victory_song
+            # Exercise 2.2 Call the playsong API with your choice of song
+            # from the songs library for player2 victory song
             ###################################################################
             playsong(victory_song_option_2)
             player2_wins += 1
