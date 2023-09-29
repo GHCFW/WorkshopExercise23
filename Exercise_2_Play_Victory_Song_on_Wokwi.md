@@ -19,7 +19,7 @@ Raspberry Pi Pico has a PWM module that we can utilize to play different sounds 
 We first need to initialize the PWM object for the buzzer.
 
 **EXERCISE 2.1:**
-In the `playsong.py` file, replace the comment that says `# Exercise 2.1: Instantiate a buzzer object, which is a PWM-type GPIO pin` with code to initialize the GPIO pin that the buzzer is connected to in GPIO out mode. In other words, what should `buzzer` be set to? 
+In the `playsong.py` file, replace the comment that says `# Exercise 2.1: Instantiate a buzzer object, which is a PWM-type GPIO pin` with code to initialize the GPIO pin that the buzzer is connected to in GPIO out mode. In other words, what should `buzzer_pin` be set to? 
 
 ```python
 ###################################################################
