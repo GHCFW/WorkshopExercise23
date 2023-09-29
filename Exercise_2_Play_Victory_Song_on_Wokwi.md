@@ -80,4 +80,4 @@ To do this, make sure you have made the changes mentioned above in Steps 1 and 2
 
 ## Answer Key
 
-[Exercise 2 Wokwi Answer Key](https://wokwi.com/projects/377155596907249665)
+[Exercise 2 Wokwi Answer Key](https://wokwi.com/projects/377161844132496385)
